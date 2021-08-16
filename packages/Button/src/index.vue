@@ -1,6 +1,6 @@
 <template>
   <div class="zjh-button">
-    <el-button :type="type" @click="handleClick"><slot></slot></el-button>
+    <el-button :type="type" @click="handleClick"><slot name="default"></slot></el-button>
   </div>
 </template>
 

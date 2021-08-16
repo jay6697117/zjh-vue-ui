@@ -4,6 +4,10 @@
     <ZjhButton type="primary">
       <template v-slot:default>button666</template>
     </ZjhButton>
-    <ZjhInput />
   </div>
 </template>
+<script>
+export default {};
+</script>
+
+<style lang="less" scoped></style>
