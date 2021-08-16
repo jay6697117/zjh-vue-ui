@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "libs": "vue-cli-service build --target lib --name zjhui --dest libs packages/index.js",
     "lint": "yarn prettier && yarn eslint",
     "eslint": "eslint --fix --ext .js,.ts,.jsx,.tsx,.vue ./",
     "prettier": "prettier --write './**/*.{css,less,json,js,ts,jsx,tsx,vue}'"

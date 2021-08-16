@@ -1,14 +1,16 @@
 import Vue from 'vue';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+import ElementUI from 'element-ui'; // 导入组件库
+import 'element-ui/lib/theme-chalk/index.css'; // 导入组件库样式
 import App from './App.vue';
-Vue.use(ElementUI);
 import router from './router';
 import store from './store';
+Vue.use(ElementUI); // 注册组件库
 
-import ZjhButton from '../packages/index';
-console.log(`ZjhButton:`, ZjhButton);
-Vue.use(ZjhButton);
+// import zjhui from '../packages/index'; // 导入组件库 全局导入
+import { ZjhButton, ZjhInput } from '../packages/index'; // 导入组件库: 按需导入
+// Vue.use(zjhui); // 注册组件库: 全局导入
+Vue.use(ZjhButton); // 注册组件库: 按需导入
+Vue.use(ZjhInput); // 注册组件库: 按需导入
 
 Vue.config.productionTip = false;
 

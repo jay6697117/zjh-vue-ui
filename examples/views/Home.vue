@@ -4,7 +4,7 @@
     <HelloWorld msg="Welcome to Your Vue.js App" />
     <hr />
     <ZjhInput v-model="inputValue" />
-    <div class="input-val">inputValue:{{ inputValue }}</div>
+    <div class="input-val">inputValue: {{ inputValue }}</div>
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
   },
   data() {
     return {
-      inputValue: 123
+      inputValue: 1
     };
   }
 };
