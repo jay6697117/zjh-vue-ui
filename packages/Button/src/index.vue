@@ -1,23 +1,32 @@
 <template>
   <div class="zjh-button">
-    <slot></slot>
+    <el-button :type="type" @click="handleClick"><slot></slot></el-button>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'x-button',
+  name: 'ZjhButton',
   props: {
     type: String
+  },
+  methods: {
+    handleClick() {
+      alert('handleClick');
+    }
   }
 };
 </script>
 
-<style scoped>
+<style lang="less" scoped>
 .zjh-button {
-  display: inline-block;
-  padding: 3px 6px;
-  background: #000;
-  color: #fff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  background: #ccc;
+
+  .el-button--primary {
+    color: purple;
+    font-size: 28px;
+  }
 }
 </style>

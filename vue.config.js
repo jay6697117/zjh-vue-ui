@@ -1,5 +1,11 @@
+const path = require('path');
+const rootDir = process.cwd(); // 项目根目录
+
 module.exports = {
   lintOnSave: process.env.NODE_ENV !== 'production', // 生产环境禁用
+  devServer: {
+    open: true
+  },
   // 修改入口文件地址为examples下的main.js
   pages: {
     index: {
@@ -15,9 +21,9 @@ module.exports = {
   chainWebpack: config => {
     config.module
       .rule('js')
-      .include.add('packages')
+      .include.add(path.resolve(rootDir, './packages'))
       .end()
-      .exclude.add('node_modules')
+      .exclude.add(/node_modules/)
       .end()
       .use('babel')
       .loader('babel-loader');
