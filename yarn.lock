@@ -9036,3 +9036,14 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+zjh-vue-ui@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.nlark.com/zjh-vue-ui/download/zjh-vue-ui-0.1.0.tgz#7098fc2f7e5b45d5c66d634ef6c2e1cae5701c36"
+  integrity sha1-cJj8L35bRdXGbWNO9sLhyuVwHDY=
+  dependencies:
+    core-js "^3.6.5"
+    element-ui "^2.15.5"
+    vue "^2.6.11"
+    vue-router "^3.2.0"
+    vuex "^3.4.0"
