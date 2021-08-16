@@ -9047,3 +9047,15 @@ zjh-vue-ui@^0.1.0:
     vue "^2.6.11"
     vue-router "^3.2.0"
     vuex "^3.4.0"
+
+zjh-vue-ui@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/zjh-vue-ui/-/zjh-vue-ui-0.1.1.tgz#733613884f707615d0ca5d03bdb2432d7a590b8b"
+  integrity sha512-oDhFbum5vUfhx59xWza/qfxoylHVNCi63Jf4GI5zqztoY2rhXztXIRHKx4W8zr9r1U61t0S27oq0Lg/zKEh2rg==
+  dependencies:
+    core-js "^3.6.5"
+    element-ui "^2.15.5"
+    vue "^2.6.11"
+    vue-router "^3.2.0"
+    vuex "^3.4.0"
+    zjh-vue-ui "^0.1.0"
