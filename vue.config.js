@@ -2,7 +2,8 @@ const path = require('path');
 const rootDir = process.cwd(); // 项目根目录
 
 module.exports = {
-  lintOnSave: process.env.NODE_ENV !== 'production', // 生产环境禁用
+  lintOnSave: false,
+  productionSourceMap: false,
   devServer: {
     open: true
   },
