@@ -4,10 +4,7 @@ const rootDir = process.cwd(); // 项目根目录
 module.exports = {
   lintOnSave: false,
   productionSourceMap: false,
-  devServer: {
-    open: true
-  },
-  // 修改入口文件地址为examples下的main.js
+  // 修改入口文件地址为 examples 下的 main.js
   pages: {
     index: {
       // page 的入口
