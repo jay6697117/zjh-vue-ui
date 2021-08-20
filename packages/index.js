@@ -17,7 +17,6 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-export { ZjhButton };
-export { ZjhInput };
+export { install, ZjhButton, ZjhInput };
 // 导出的对象必须具有 install，才能被 Vue.use() 方法安装
-export default install;
+export default { install, ZjhButton, ZjhInput };
