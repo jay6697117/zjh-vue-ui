@@ -2,7 +2,7 @@ import Vue from 'vue';
 import ElementUI from 'element-ui'; // 导入element组件库
 import 'element-ui/lib/theme-chalk/index.css'; // 导入element组件库样式
 import zjhui from 'zjh-vue-ui'; // 导入zjhui组件库
-import 'zjh-vue-ui/libs/zjhui.css'; // 导入zjhui组件库样式
+import 'zjh-vue-ui/dist/zjhui.css'; // 导入zjhui组件库样式
 import App from './App.vue';
 import router from './router';
 import store from './store';

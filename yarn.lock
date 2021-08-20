@@ -9037,25 +9037,14 @@ yorkie@^2.0.0:
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
 
-zjh-vue-ui@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.nlark.com/zjh-vue-ui/download/zjh-vue-ui-0.1.0.tgz#7098fc2f7e5b45d5c66d634ef6c2e1cae5701c36"
-  integrity sha1-cJj8L35bRdXGbWNO9sLhyuVwHDY=
+zjh-vue-ui@^0.1.1, zjh-vue-ui@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.nlark.com/zjh-vue-ui/download/zjh-vue-ui-0.1.2.tgz#4f90770854843d5af810f91cfa6f296c19d87fb2"
+  integrity sha1-T5B3CFSEPVr4EPkc+m8pbBnYf7I=
   dependencies:
     core-js "^3.6.5"
     element-ui "^2.15.5"
     vue "^2.6.11"
     vue-router "^3.2.0"
     vuex "^3.4.0"
-
-zjh-vue-ui@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/zjh-vue-ui/-/zjh-vue-ui-0.1.1.tgz#733613884f707615d0ca5d03bdb2432d7a590b8b"
-  integrity sha512-oDhFbum5vUfhx59xWza/qfxoylHVNCi63Jf4GI5zqztoY2rhXztXIRHKx4W8zr9r1U61t0S27oq0Lg/zKEh2rg==
-  dependencies:
-    core-js "^3.6.5"
-    element-ui "^2.15.5"
-    vue "^2.6.11"
-    vue-router "^3.2.0"
-    vuex "^3.4.0"
-    zjh-vue-ui "^0.1.0"
+    zjh-vue-ui "^0.1.1"
